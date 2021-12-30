@@ -1,0 +1,31 @@
+html {
+    background-color: $background !important;
+}
+body {
+    background-color: $white;
+}
+
+html,
+body {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+    overflow-y: auto;
+
+    // custom scroll bar
+    &::-webkit-scrollbar {
+        width: 16px;
+    }
+    &::-webkit-scrollbar-thumb {
+        height: 56px;
+        border-radius: 8px;
+        border: 2px solid transparent;
+        background-clip: content-box;
+        background-color: $scrollbar-color;
+    }
+}

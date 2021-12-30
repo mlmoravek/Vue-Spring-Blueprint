@@ -1,0 +1,42 @@
+{"properties": [
+  {
+    "name": "app.endpoint.login",
+    "type": "java.lang.String",
+    "description": "REST path for the login endpoint"
+  },
+  {
+    "name": "app.endpoint.logout",
+    "type": "java.lang.String",
+    "description": "REST path for the logout endpoint"
+  },
+  {
+    "name": "app.endpoint.registration",
+    "type": "java.lang.String",
+    "description": "REST path for the registration endpoint"
+  },
+  {
+    "name": "app.endpoint.api",
+    "type": "java.lang.String",
+    "description": "REST path prefix for the whole api"
+  },
+  {
+    "name": "app.environment",
+    "type": "java.lang.String",
+    "description": "A description for 'app.environment'"
+  },
+  {
+    "name": "app.jwt.expiration_time",
+    "type": "long",
+    "description": "The time in ms after the jwt token expirate "
+  },
+  {
+    "name": "app.jwt.secret",
+    "type": "java.lang.String",
+    "description": "The secret key for the jwt token hashing"
+  },
+  {
+    "name": "app.max-login-attempts",
+    "type": "long",
+    "description": "The amount of max login attempts befor a user get disabled. -1 is off."
+  }
+]}
